@@ -12,7 +12,7 @@ def display_birthday_wish(name, language):
 
     elif language == "English":
         st.success("Happy Birthday Beautiful!")
-        st.write(f"Woohoo its someone's birthday today... and who's that someone?? ITS YOUUU, Yes Ms. Nandy (Nandinem)!!! Happy birthday girll!!!!")
+        st.write(f"Woohoo its someone's birthday today... and who's that someone?? ITS YOUUU, Yes Ms. Nivedita Phadke (Ms. Jellyfish and all the other names that i call ypu hehehehe) !!! Happy birthday girll!!!!")
         st.image("english.gif")
         st.snow()
         st.balloons()
@@ -44,7 +44,6 @@ def main():
     english_wish = st.checkbox("English")
     gujarati_wish = st.checkbox("Gujarati")
     german_wish = st.checkbox("German")
-    malayalam_wish = st.checkbox("Malayalam")
 
     # Get user's name
     name = st.text_input("Enter your name:")
