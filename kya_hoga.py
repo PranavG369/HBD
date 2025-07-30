@@ -5,26 +5,26 @@ from googletrans import Translator
 def display_birthday_wish(name, language):
     if language == "Hindi":
         st.success("जन्मदिन की हार्दिक शुभकामनाएँ सुंदरी!")
-        st.write(f"वाह, आज किसी का जन्मदिन है... और वह कौन है? हाँ, वह {name} हैं! हाँ श्रीमती नंदी (नंदिनीम)! जन्मदिन की ढेर सारी शुभकामनाएँ महिला!!")
+        st.write(f"WUUHUUUU आज किसी का जन्मदिन है... और वो कौन है?? ये आप {name} हैं, हाँ सुश्री निवेदिता फड़के (सुश्री जेलीफ़िश और बाकी सारे नाम जिनसे मैं आपको पुकारता हूँ, हेहेहेहे)!!! जन्मदिन मुबारक हो, महिला ")
         st.image("hindi.gif")
         st.balloons()
         st.snow()
 
     elif language == "English":
         st.success("Happy Birthday Beautiful!")
-        st.write(f"Woohoo its someone's birthday today... and who's that someone?? ITS YOUUU, Yes Ms. Nivedita Phadke (Ms. Jellyfish and all the other names that i call ypu hehehehe) !!! Happy birthday girll!!!!")
+        st.write(f"WUUHUUUU its someone's birthday today... and who's that someone?? ITS YOUUU, Yes Ms. Nivedita Phadke (Ms. Jellyfish and all the other names that i call ypu hehehehe) !!! Happy birthday girll!!!!")
         st.image("english.gif")
         st.snow()
         st.balloons()
     elif language == "Gujarati":
         st.success("જન્મદિવસ ની હાર્દિક શુભેચ્છાઓ સુંદરી!")
-        st.write(f"Woohoo આજ કોઈનો જન્મદિવસ છે... અને તે કોણ છે?? હા, તું છે! હાઁ Ms. Nandy (Nandinem)!!! Happy birthday છોકરી!!!!")
+        st.write(f"WUUHUUUU, આજે કોઈનો જન્મદિવસ છે... અને કોણ છે?? તે તમે છો, હા શ્રીમતી નિવેદિતા ફડકે (શ્રીમતી જેલીફિશ અને બીજા બધા નામો જે હું તમને બોલાવું છું, હેહેહેહે)!!! જન્મદિવસની શુભેચ્છાઓ, લેડી.!!!!")
         st.image("guj.gif")
         st.snow()
         st.balloons()
     elif language == "German":
         st.success("Alles Gute zum Geburtstag schöne!")
-        st.write(f"Woohoo heute hat jemand Geburtstag... und wer ist das?? ES BIST DU, Ja Ms. Nandy (Nandinem)!!! Alles Gute zum Geburtstag Mädchen!!!!")
+        st.write(f"WUUHUUUU, heute hat jemand Geburtstag ... und wer ist dieser Jemand?? DU BIST ES, ja, Ms. Nivedita Phadke (Ms. Jellyfish und all die anderen Namen, mit denen ich dich nenne, hehehehe)!!! Alles Gute zum Geburtstag, Mädchen!!!!")
         st.image("ger.gif")
         st.snow()
         st.balloons()
