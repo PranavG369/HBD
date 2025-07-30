@@ -40,7 +40,6 @@ def translate_to_english(sentence, source_lang):
 
 def main():
     st.title("Hmmmm kya hai ye??🤔")
-    st.image(["ITT.jpg"], caption=["Upgrade version 2.0"], width=900)
     st.subheader("What this might be?? AREY SOCHO MAT, DEKHO SIDHA! BWAHAHAHAHAA 😎🥂")
     st.write(
         "Well, there's a lot to write and I can go on for days if you'd be listening patiently 😆, "
@@ -48,6 +47,7 @@ def main():
         "so ye app pe kuch likh leta hu aur baaki toh texts pe mil hi janay teko hehehehe. "
         "You really some anokha chiz I must say ha... chal chal ab niche ek ek krke click kr aur maza dekh 😎"
     )
+    st.image(["ITT.jpg"], caption=["Upgrade version 2.0"], width=900)
 
     # Language checkboxes
     st.write("🎂 Choose how you want your birthday wish:")
