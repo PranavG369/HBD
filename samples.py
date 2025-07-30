@@ -40,6 +40,7 @@ def translate_to_english(sentence, source_lang):
 
 def main():
     st.title("Hmmmm kya hai ye??🤔")
+    st.image(["ITT.jpg"], caption=["Upgrade version 2.0"], width=300)
     st.subheader("What this might be?? AREY SOCHO MAT, DEKHO SIDHA! BWAHAHAHAHAA 😎🥂")
     st.write(
         "Well, there's a lot to write and I can go on for days if you'd be listening patiently 😆, "
@@ -72,3 +73,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
