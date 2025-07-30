@@ -1,5 +1,5 @@
 import streamlit as st
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 
 # Function to display birthday wishes with effects
 def display_birthday_wish(name, language):
@@ -29,10 +29,11 @@ def display_birthday_wish(name, language):
         st.snow()
         st.balloons()
 
-def translate_to_english(sentence, language):
-    translator = Translator()
-    translated_text = translator.translate(sentence, src=language, dest="en")
-    return translated_text.text
+
+
+def translate_to_english(sentence, source_lang):
+    return GoogleTranslator(source=source_lang, target='en').translate(sentence)
+
 
 def main():
     st.title("Hmmmm kya hai ye??🤔")
