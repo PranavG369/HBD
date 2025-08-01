@@ -58,7 +58,7 @@ def main():
         "I am proud of who you are. koi rahe na rahe mai hamesha rahunga keep that in mind samjhe kya jellyfish"
         "So, more to come but ye yahi end krrau by saying... Happy Birthday Ms. Jellyfish💖 and ufff still a TEEN in your age😂😂😂😂😂😂"
     )
-    st.image(["ITT.jpg"], caption=["Upgrade version 2.0"], width=900)
+    st.image(["ITT.jpg"], caption=["Upgrade version 2.0 of that It Takes Two jiska mai bolra tha hehehe, ohh btw version 3.0 baki hai ha 😂😁"], width=900)
 
     # Language checkboxes
     st.write("🎂 Choose konse language me aapko chahiye aapka birthday wish bwahahaha")
