@@ -42,7 +42,7 @@ def main():
     st.title("Hmmmm kya hai ye??🤔")
     st.subheader("What this might be?? AREY SOCHO MAT, DEKHO SIDHA! BWAHAHAHAHAA 😎🥂")
     st.write(
-        st.title("🌟 T ZERO 🌟");
+        st.title("🌟 T ZERO 🌟")
         "It's here It's finally here WUHUUUU, YOUR DAY!!!"
         "The day yhe universe gave this world its most most mosttt precious creation YOU"
         "And if i could i would write your name across the sky in stars, i would bottle everything that i've ever felt and pour it into your hands"
