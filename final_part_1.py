@@ -5,6 +5,7 @@ from deep_translator import GoogleTranslator
 def display_birthday_wish(name, language):
     if language == "Hindi":
         st.success("जन्मदिन की हार्दिक शुभकामनाएँ सुंदरी!")
+        st.write("")
         st.write(f"WUUHUUUU आज किसी का जन्मदिन है... और वो कौन है?? ये आप {name} हैं, हाँ सुश्री निवेदिता फड़के (सुश्री जेलीफ़िश और बाकी सारे नाम जिनसे मैं आपको पुकारता हूँ, हेहेहेहे)!!! जन्मदिन मुबारक हो, महिला")
         st.write("नरम सी तुझसे जुड़ी हर बात लगती है ख़ास,")
         st.write("इशारे तेरे, जैसे चाँदनी का मधुर एहसास।")
@@ -21,6 +22,14 @@ def display_birthday_wish(name, language):
     elif language == "Marathi":
         st.success("वाढदिवसाच्या हार्दिक शुभेच्छा सुंदरी!")
         st.write(f"आज कोणाचा तरी वाढदिवस आहे... आणि ती व्यक्ती कोण आहे?? हे तूच {name} आहेस, हो सुश्री निवेदिता फडके (सुश्री जेलीफिश आणि मी तुला ज्या नावांनी हाक मारतो ती सर्व नावे)!!! वाढदिवसाच्या शुभेच्छा मुली")
+        st.write()
+        st.write()
+        st.write()
+        st.write()
+        st.write()
+        st.write()
+        st.write()
+        st.write()
         st.image("marathi.gif", width=600)
         st.snow()
         st.balloons()
