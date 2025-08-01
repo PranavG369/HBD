@@ -7,10 +7,12 @@ if "ready_phase" not in st.session_state:
     st.session_state.ready_phase = "ask"
 if "no_clicks" not in st.session_state:
     st.session_state.no_clicks = 0
-if "countdown_done" not in st.session_state:
-    st.session_state.countdown_done = False
+if "countdown" not in st.session_state:
+    st.session_state.countdown = 10
 if "photo_step" not in st.session_state:
     st.session_state.photo_step = 0
+if "show_poem" not in st.session_state:
+    st.session_state.show_poem = False
 
 # --- Photo Memory List ---
 photos_with_captions = [
@@ -40,10 +42,9 @@ if st.session_state.ready_phase == "ask":
     st.markdown("## 💖 Are you ready????")
     st.markdown("#### (No cheating, click only when you truly are 😉)")
 
-    # Determine NO button font size
     no_font_size = 16 + st.session_state.no_clicks * 10
-
     col1, col2 = st.columns(2)
+
     with col1:
         if st.button("YES 💫"):
             st.session_state.ready_phase = "countdown"
@@ -60,18 +61,17 @@ if st.session_state.ready_phase == "ask":
 
 # --- Step 2: Countdown Phase ---
 elif st.session_state.ready_phase == "countdown":
-    st.markdown("### ⏳ Get ready in...")
-    for i in range(10, 0, -1):
-        st.markdown(f"# {i}...")
+    if st.session_state.countdown > 0:
+        st.markdown(f"### ⏳ Get ready in... `{st.session_state.countdown}`")
         time.sleep(1)
+        st.session_state.countdown -= 1
+        st.experimental_rerun()
+    else:
+        st.session_state.ready_phase = "memories"
         st.experimental_rerun()
 
-    st.session_state.ready_phase = "memories"
-    st.experimental_rerun()
-
-# --- Step 3: Memory & Poem Phase ---
+# --- Step 3: Memory Phase ---
 elif st.session_state.ready_phase == "memories":
-
     step = st.session_state.photo_step
 
     if step < len(photos_with_captions):
@@ -90,12 +90,17 @@ elif st.session_state.ready_phase == "memories":
         st.markdown("### 🥹 You've reached the end of our little journey...")
         st.markdown("#### But here's a little something from me to you 💌")
         st.markdown(final_poem)
-  
-        # Heart Animation
-        st.markdown("## ❤️ From me to you:")
-        heart_row = ["❤️", "💖", "💘", "💕", "💞", "💓", "💗", "💝"]
 
-        import time
-        for i in range(8):
-            st.markdown(f"<h1 style='text-align: center;'>{heart_row[i % len(heart_row)]}</h1>", unsafe_allow_html=True)
-            time.sleep(0.3)
+        if not st.session_state.show_poem:
+            if st.button("💗 Show Hearts 💗"):
+                st.session_state.show_poem = True
+                st.experimental_rerun()
+
+        if st.session_state.show_poem:
+            heart_row = ["❤️", "💖", "💘", "💕", "💞", "💓", "💗", "💝"]
+            for i in range(8):
+                st.markdown(
+                    f"<h1 style='text-align: center;'>{heart_row[i % len(heart_row)]}</h1>",
+                    unsafe_allow_html=True,
+                )
+                time.sleep(0.3)
