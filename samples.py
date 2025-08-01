@@ -12,21 +12,21 @@ def display_birthday_wish(name, language):
 
     elif language == "English":
         st.success("Happy Birthday Beautiful!")
-        st.write(f"WUUHUUUU it's someone's birthday today... and who's that someone?? IT'S YOUUU, Yes Ms. Nivedita Phadke (Ms. Jellyfish and all the other names that I call you hehehehe)!!! Happy birthday girll!!!!")
+        st.write(f"WUUHUUUU it's someone's birthday today... and who's that someone?? IT'S YOUUU {name}, Yes Ms. Nivedita Phadke (Ms. Jellyfish and all the other names that I call you hehehehe)!!! Happy birthday girll!!!!")
         st.image("english.gif", width=600)
         st.snow()
         st.balloons()
 
     elif language == "Gujarati":
         st.success("જન્મદિવસ ની હાર્દિક શુભેચ્છાઓ સુંદરી!")
-        st.write(f"WUUHUUUU, આજે કોઈનો જન્મદિવસ છે... અને કોણ છે?? તે તમે છો, હા શ્રીમતી નિવેદિતા ફડકે (શ્રીમતી જેલીફિશ અને બીજા બધા નામો જે હું તમને બોલાવું છું, હેહેહેહે)!!! જન્મદિવસની શુભેચ્છાઓ, લેડી!!!!")
+        st.write(f"WUUHUUUU, આજે કોઈનો જન્મદિવસ છે... અને કોણ છે?? તે તમે છો {name}, હા શ્રીમતી નિવેદિતા ફડકે (શ્રીમતી જેલીફિશ અને બીજા બધા નામો જે હું તમને બોલાવું છું, હેહેહેહે)!!! જન્મદિવસની શુભેચ્છાઓ, લેડી!!!!")
         st.image("guj.gif", width=600)
         st.snow()
         st.balloons()
 
     elif language == "German":
         st.success("Alles Gute zum Geburtstag, schöne!")
-        st.write(f"WUUHUUUU, heute hat jemand Geburtstag ... und wer ist dieser Jemand?? DU BIST ES, ja, Ms. Nivedita Phadke (Ms. Jellyfish und all die anderen Namen, mit denen ich dich nenne, hehehehe)!!! Alles Gute zum Geburtstag, Mädchen!!!!")
+        st.write(f"WUUHUUUU, heute hat jemand Geburtstag ... und wer ist dieser Jemand?? DU BIST ES {name}, ja, Ms. Nivedita Phadke (Ms. Jellyfish und all die anderen Namen, mit denen ich dich nenne, hehehehe)!!! Alles Gute zum Geburtstag, Mädchen!!!!")
         st.image("ger.gif", width=600)
         st.snow()
         st.balloons()
