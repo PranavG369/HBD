@@ -10,6 +10,13 @@ def display_birthday_wish(name, language):
         st.balloons()
         st.snow()
 
+    elif language == "Marathi":
+        st.success()
+        st.write()
+        st.image()
+        st.snow()
+        st.balloons()
+
     elif language == "English":
         st.success("Happy Birthday Beautiful!")
         st.write(f"WUUHUUUU it's someone's birthday today... and who's that someone?? IT'S YOUUU {name}, Yes Ms. Nivedita Phadke (Ms. Jellyfish and all the other names that I call you hehehehe)!!! Happy birthday girll!!!!")
@@ -64,6 +71,7 @@ def main():
     st.write("🎂 Choose konse language me aapko chahiye aapka birthday wish bwahahaha")
     st.write("P.S: ek time pe ek hi choose krna ji 😂😂")
     hindi_wish = st.checkbox("Hindi")
+    marathi_wish = st.checkbox("Marathi")
     english_wish = st.checkbox("English")
     gujarati_wish = st.checkbox("Gujarati")
     german_wish = st.checkbox("German")
@@ -74,6 +82,8 @@ def main():
     if name:
         if hindi_wish:
             display_birthday_wish(name, "Hindi")
+        if marathi_wish:
+            display_birthday_wish(name, "Marathi")
         if english_wish:
             display_birthday_wish(name, "English")
         if gujarati_wish:
