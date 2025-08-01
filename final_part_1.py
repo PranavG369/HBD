@@ -99,7 +99,7 @@ def main():
     st.write("The day the universe gave this world its most most mosttt precious creation YOU")
     st.write("And if i could i would write your name across the sky in stars, i would bottle everything that i've ever felt and pour it into your hands")
     st.write("But yk sacchai ye hai ki ye aasman, ye poetry, ya naye naye janam bhi try kru toh vo kam padega")
-    st.write"So, its not just you Birthday but its the anniversary of the day the universe decided the world needed someone")
+    st.write("So, its not just you Birthday but its the anniversary of the day the universe decided the world needed someone")
     st.write("someone magical, someone who would bring laughter where there was silence, love, where there was fear, and warmth where there was cold")
     st.write("And that someone is YOU!!")
     st.write("You are more than just beautiful, you are light (ujalaaaaaa lee aaye naye jaisi safedi😂), your are comfort, chaos and calm, all in perfect balance")
