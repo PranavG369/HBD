@@ -61,14 +61,15 @@ def main():
     st.image(["ITT.jpg"], caption=["Upgrade version 2.0"], width=900)
 
     # Language checkboxes
-    st.write("🎂 Choose how you want your birthday wish:")
+    st.write("🎂 Choose konse language me aapko chahiye aapka birthday wish bwahahaha")
+    st.write("P.S: ek time pe ek hi choose krna ji 😂😂")
     hindi_wish = st.checkbox("Hindi")
     english_wish = st.checkbox("English")
     gujarati_wish = st.checkbox("Gujarati")
     german_wish = st.checkbox("German")
 
     # Name input
-    name = st.text_input("👩‍💻 Enter your name:")
+    name = st.text_input("👩‍💻 Enter your name: (toh ye raha aapka naam aapke screen par)")
 
     if name:
         if hindi_wish:
