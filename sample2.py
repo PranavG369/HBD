@@ -42,22 +42,39 @@ if st.session_state.ready_phase == "ask":
     st.markdown("## 💖 Are you ready????")
     st.markdown("#### (No cheating, click only when you truly are 😉)")
 
-    no_font_size = 16 + st.session_state.no_clicks * 10
     col1, col2 = st.columns(2)
-
     with col1:
         if st.button("YES 💫"):
             st.session_state.ready_phase = "countdown"
             st.experimental_rerun()
+
     with col2:
-        if st.session_state.no_clicks < 3:
-            if st.button(f"<span style='font-size:{no_font_size}px'>NO 😝</span>", unsafe_allow_html=True):
-                st.session_state.no_clicks += 1
-                st.experimental_rerun()
-        else:
-            if st.button("OK FINE YES 😤"):
-                st.session_state.ready_phase = "countdown"
-                st.experimental_rerun()
+        no_clicks = st.session_state.no_clicks
+        no_font_size = 16 + no_clicks * 8
+        no_button_key = f"no_button_{no_clicks}"
+
+        no_button_html = f"""
+        <form action="" method="post">
+            <button type="submit" name="no_button" style="font-size:{no_font_size}px; padding:10px 20px; border-radius:10px; background-color:#f54291; color:white;">
+                {'NO 😝' if no_clicks < 3 else 'OK FINE YES 😤'}
+            </button>
+        </form>
+        """
+        st.markdown(no_button_html, unsafe_allow_html=True)
+
+        if st.session_state.no_clicks < 3 and st.session_state.get("no_button_pressed"):
+            st.session_state.no_clicks += 1
+            st.session_state.no_button_pressed = False
+            st.experimental_rerun()
+        elif st.session_state.no_clicks >= 3 and st.session_state.get("no_button_pressed"):
+            st.session_state.ready_phase = "countdown"
+            st.session_state.no_button_pressed = False
+            st.experimental_rerun()
+
+        # Capture form submission
+        if "no_button" in st.experimental_get_query_params():
+            st.session_state.no_button_pressed = True
+            st.experimental_set_query_params()  # reset URL params
 
 # --- Step 2: Countdown Phase ---
 elif st.session_state.ready_phase == "countdown":
