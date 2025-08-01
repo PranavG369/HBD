@@ -42,9 +42,10 @@ def main():
     st.title("Hmmmm kya hai ye??🤔")
     st.subheader("What this might be?? AREY SOCHO MAT, DEKHO SIDHA! BWAHAHAHAHAA 😎🥂")
     st.write(
-        "🌟 T ZERO 🌟"
+        "🌟 T ZERO 🌟")
+    st.write(
         "It's here It's finally here WUHUUUU, YOUR DAY!!!"
-        "The day yhe universe gave this world its most most mosttt precious creation YOU"
+        "The day the universe gave this world its most most mosttt precious creation YOU"
         "And if i could i would write your name across the sky in stars, i would bottle everything that i've ever felt and pour it into your hands"
         "But yk sacchai ye hai ki ye aasman, ye poetry, ya naye naye janam bhi try kru toh vo kam padega"
         "So, its not just you Birthday but its the anniversary of the day the universe decided the world needed someone"
