@@ -11,9 +11,9 @@ def display_birthday_wish(name, language):
         st.snow()
 
     elif language == "Marathi":
-        st.success()
-        st.write()
-        st.image()
+        st.success("वाढदिवसाच्या हार्दिक शुभेच्छा सुंदरी!")
+        st.write(f"आज कोणाचा तरी वाढदिवस आहे... आणि ती व्यक्ती कोण आहे?? हे तूच {name} आहेस, हो सुश्री निवेदिता फडके (सुश्री जेलीफिश आणि मी तुला ज्या नावांनी हाक मारतो ती सर्व नावे)!!! वाढदिवसाच्या शुभेच्छा मुली")
+        st.image("marathi.gif", width=600)
         st.snow()
         st.balloons()
 
