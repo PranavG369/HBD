@@ -81,7 +81,7 @@ def main():
         if german_wish:
             display_birthday_wish(name, "German")
     else:
-        st.warning("👀 Enter your name to unlock the surprise!")
+        st.warning("👀 Enter your name to unlock the surprise ji!")
 
 if __name__ == "__main__":
     main()
