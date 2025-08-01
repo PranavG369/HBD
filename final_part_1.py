@@ -95,21 +95,20 @@ def main():
     st.subheader("What this might be?? AREY SOCHO MAT, DEKHO SIDHA! BWAHAHAHAHAA 😎🥂")
     st.write(
         "🌟 T ZERO 🌟")
-    st.write(
-        "It's here It's finally here WUHUUUU, YOUR DAY!!!"
-        "The day the universe gave this world its most most mosttt precious creation YOU"
-        "And if i could i would write your name across the sky in stars, i would bottle everything that i've ever felt and pour it into your hands"
-        "But yk sacchai ye hai ki ye aasman, ye poetry, ya naye naye janam bhi try kru toh vo kam padega"
-        "So, its not just you Birthday but its the anniversary of the day the universe decided the world needed someone"
-        "someone magical, someone who would bring laughter where there was silence, love, where there was fear, and warmth where there was cold"
-        "and that someone is YOU!!"
-        "You are more than just beautiful, you are light (ujalaaaaaa lee aaye naye jaisi safedi😂), your are comfort, chaos and calm, all in perfect balance"
-        "Every little thing about you, your nind vali awaaz, aapk vo soft soft jhalak (jhalak dikhalaja),every every thing stays with me"
-        "I want a hundred more of your birthdays so i can celebrate you again and again, in a million little ways."
-        "Not just with flowers or gifts or words… but with presence. With holding you when words aren’t needed, with standing by your side through every season, and with loving you the way stars love the night quietly, endlessly, without fail"
-        "I am proud of who you are. koi rahe na rahe mai hamesha rahunga keep that in mind samjhe kya jellyfish"
-        "So, more to come but ye yahi end krrau by saying... Happy Birthday Ms. Jellyfish💖 and ufff still a TEEN in your age😂😂😂😂😂😂"
-    )
+    st.write("It's here It's finally here WUHUUUU, YOUR DAY!!!")
+    st.write("The day the universe gave this world its most most mosttt precious creation YOU")
+    st.write("And if i could i would write your name across the sky in stars, i would bottle everything that i've ever felt and pour it into your hands")
+    st.write("But yk sacchai ye hai ki ye aasman, ye poetry, ya naye naye janam bhi try kru toh vo kam padega")
+    st.write"So, its not just you Birthday but its the anniversary of the day the universe decided the world needed someone")
+    st.write("someone magical, someone who would bring laughter where there was silence, love, where there was fear, and warmth where there was cold")
+    st.write("And that someone is YOU!!")
+    st.write("You are more than just beautiful, you are light (ujalaaaaaa lee aaye naye jaisi safedi😂), your are comfort, chaos and calm, all in perfect balance")
+    st.write("Every little thing about you, your nind vali awaaz, aapk vo soft soft jhalak (jhalak dikhalaja),every every thing stays with me")
+    st.write("I want a hundred more of your birthdays so i can celebrate you again and again, in a million little ways.")
+    st.write("Not just with flowers or gifts or words… but with presence. With holding you when words aren’t needed, with standing by your side through every season, and with loving you the way stars love the night quietly, endlessly, without fail")
+    st.write("I am proud of who you are. koi rahe na rahe mai hamesha rahunga keep that in mind samjhe kya jellyfish")
+    st.write("So, more to come but ye yahi end krrau by saying... Happy Birthday Ms. Jellyfish💖 and ufff still a TEEN in your age😂😂😂😂😂😂")
+    
     st.image(["ITT.jpg"], caption=["Upgrade version 2.0 of that It Takes Two jiska mai bolra tha hehehe, ohh btw version 3.0 baki hai ha 😂😁"], width=900)
 
     # Language checkboxes
