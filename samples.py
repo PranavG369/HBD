@@ -42,10 +42,20 @@ def main():
     st.title("Hmmmm kya hai ye??🤔")
     st.subheader("What this might be?? AREY SOCHO MAT, DEKHO SIDHA! BWAHAHAHAHAA 😎🥂")
     st.write(
-        "Well, there's a lot to write and I can go on for days if you'd be listening patiently 😆, "
-        "which you won't because ufff your patience i know kitna hai vo 😆 "
-        "so ye app pe kuch likh leta hu aur baaki toh texts pe mil hi janay teko hehehehe. "
-        "You really some anokha chiz I must say ha... chal chal ab niche ek ek krke click kr aur maza dekh 😎"
+        st.title("🌟 T ZERO 🌟");
+        "It's here It's finally here WUHUUUU, YOUR DAY!!!"
+        "The day yhe universe gave this world its most most mosttt precious creation YOU"
+        "And if i could i would write your name across the sky in stars, i would bottle everything that i've ever felt and pour it into your hands"
+        "But yk sacchai ye hai ki ye aasman, ye poetry, ya naye naye janam bhi try kru toh vo kam padega"
+        "So, its not just you Birthday but its the anniversary of the day the universe decided the world needed someone"
+        "someone magical, someone who would bring laughter where there was silence, love, where there was fear, and warmth where there was cold"
+        "and that someone is YOU!!"
+        "You are more than just beautiful, you are light (ujalaaaaaa lee aaye naye jaisi safedi😂), your are comfort, chaos and calm, all in perfect balance"
+        "Every little thing about you, your nind vali awaaz, aapk vo soft soft jhalak (jhalak dikhalaja),every every thing stays with me"
+        "I want a hundred more of your birthdays so i can celebrate you again and again, in a million little ways."
+        "Not just with flowers or gifts or words… but with presence. With holding you when words aren’t needed, with standing by your side through every season, and with loving you the way stars love the night quietly, endlessly, without fail"
+        "I am proud of who you are. koi rahe na rahe mai hamesha rahunga keep that in mind samjhe kya jellyfish"
+        "So, more to come but ye yahi end krrau by saying... Happy Birthday Ms. Jellyfish💖 and ufff still a TEEN in your age😂😂😂😂😂😂"
     )
     st.image(["ITT.jpg"], caption=["Upgrade version 2.0"], width=900)
 
